@@ -1,9 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router";
-import Home from "./pages/Home/Home";
+import { Home, Projects } from "./pages";
 import ErrorPage from "./pages/Error Page/ErrorPage";
-import Projects from "./pages/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
 const Root = () => {
